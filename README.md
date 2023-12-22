@@ -17,6 +17,7 @@ STATUS QUO
 PEDAGOGY
 * tldr: better at SQL if data 1) local 2) interesting
 * small databases https://news.ycombinator.com/item?id=34558054
+* example databases: Spanish, Sakila https://github.com/jOOQ/sakila/blob/main/sqlite-sakila-db/sqlite-sakila-schema.sql 📙 Beaulieau [41]
 
 # impl
 
@@ -40,10 +41,13 @@ SELECT * FROM pragma_foreign_key_list('reading');
 ## remote
 
 connect to actual server
-* PG exercises https://github.com/zachvalenta/pg-exercises
 * https://data.stackexchange.com/help
 * https://sqlpd.com/
 * https://news.ycombinator.com/item?id=30631477
+
+PLAYGROUNDS
+* PG exercises https://github.com/zachvalenta/pg-exercises
+* https://jvns.ca/blog/2023/04/17/a-list-of-programming-playgrounds/
 
 baked data
 * Datasette https://csvbase.com/ fetching https://github.com/fatiando/pooch
